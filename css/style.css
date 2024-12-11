@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    padding: 0%;
+    margin: 0;
+    background-image: url('/image/fundofinal.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: 100%; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    min-height: 100vh;
+
+}
+
+
+
+.conteudo {
+    width: 85%; /* largura */
+    display: flex; /* exibir os itens, flex da propriedades */
+    justify-content: space-between; /* alinha os conteudos - space between separa os itens*/
+    align-items: center; /* alinha os itens ao centro da tela*/
+}
+
+.textos {
+    width: 400%;
+}
+
+h2 {
+    color: #333;
+    font-size: 100%;
+    font-weight: bold;
+    margin-left: 2%;
+    
+}
+
+span {
+    color: #ff0000;
+    font-size: 150%;
+    font-weight: 900;
+    
+}
+
+.wol{
+    color: #ffff00;
+    font-size: 150%;
+    font-weight: 900; 
+    
+}
+
+p {
+    font-size: 70%;
+    margin-right: 50%;
+    margin-left: 2%;
+}
+
+.imagem {
+    width: 1000px;
+    display: flex;
+    justify-content: flex;
+    margin-top: 10%;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content:first baseline;
+    padding-bottom: 0%;
+    padding-left: 30%;
+}
+
+.botao-menu {
+    width: 5%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+}
+
+.botao-menu:hover {
+    transform: translateY(-30px);
+    transition: 1s;
+}
+
+.circulo {
+    background: #ff0000;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+}
+
+.logo {
+    width: 80px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.imagem-copo {
+    width: 160%;
+
+}
+
+
+
+button{
+    margin-left: 2%;
+    background: #ff0000;
+    color: white;
+    border-radius: 40px; /* arredonda da borda */
+    border: none; /* borda do elemento */
+    cursor: pointer; /* muda a forma do cursor em cima */
+    padding: 10px; /* espaçamento interno*/
+    margin-top: 20px; /* espaçamento externo*/
+    transition: 0,5s;
+}
+
+button:hover{
+    background-color: #e24f4f;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeadPool&Wolverine</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="circulo" id="fundo-copo"></div>
+
+    <img src="/image/logo.png" class="logo" />
+
+    <div class="conteudo">
+      <div class="textos">
+        <h2>
+          Isto não é apenas um filme... Isto é <span>Deadpool</span>&<span
+            class="wol"
+            >Wolverine</span
+          >
+        </h2>
+        <p id="texto-alvo">
+          Wolverine está se recuperando quando cruza seu caminho com Deadpool.
+          Juntos, eles formam uma equipe e enfrentam um inimigo em comum.
+        </p>
+        <button>Botão atoa para efeito!</button>
+      </div>
+
+      <div class="imagem">
+        <img id="imagem-copo" src="/image/img1.png" class="imagem-copo" />
+      </div>
+    </div>
+
+    <div class="menu">
+      <img
+        src="/image/thumb1.png"
+        class="botao-menu"
+        alt="Botão 1"
+        onclick="trocarImagem('/image/img1.png', '#ff0000', 'Wade Winston Wilson, mais conhecido pelo alter ego Deadpool, é um personagem fictício do Universo Marvel que atua geralmente como anti-herói e ocasionalmente como vilão. Ele é um mercenário canadense marcado por ser falastrão e piadista, rendendo-lhe o apelido Mercenário Tagarela, que tem tendências violentas e possui um fator de cura que o faz sobreviver aos piores ferimentos.')"
+      />
+      <img
+        src="/image/thumb2.png"
+        class="botao-menu"
+        alt="Botão 2"
+        onclick="trocarImagem('/image/img2.png', '#ffff00', 'Wolverine nascido James Howlett e conhecido como Logan ou Arma X é um personagem fictício que aparece em quadrinhos americanos publicados pela Marvel Comics, principalmente em associação aos X-Men. Ele é um mutante que possui sentidos afiados, capacidades físicas aprimoradas, habilidade regenerativa poderosa conhecida como fator de cura e três garras ósseas retráteis ​​em cada mão. Wolverine foi retratado de forma variada como membro dos X-Men, Tropa Alfa e Vingadores.')"
+      />
+      <img
+        src="/image/thumb3.png"
+        class="botao-menu"
+        alt="Botão 3"
+        onclick="trocarImagem('/image/img3.png', '#ff1493', 'Dogpool estreou pela primeira vez no cinema no filme Deadpool & Wolverine, em 2024, como parte do Universo Cinematográfico Marvel. Nesta versão, Dogpool é uma cachorrinha. Retratada por Peggy, ela ficou conhecida mundialmente por ganhar o título de “Cachorro Mais Feio da Grã-Bretanha”. A participação de Peggy foi anunciada pelo protagonista de Deadpool, Ryan Reynolds em sua conta no X antigo Twitter, em 9 de novembro de 2023. Após Peggy ser anunciada, Ryan Reynolds revelou que a inclusão da cachorrinha no filme era porque ela seria a “manifestação animal de Wade Wilson”.')"
+      />
+    </div>
+
+    <script src="./Javascript/script.js"></script>
+  </body>
+</html>
